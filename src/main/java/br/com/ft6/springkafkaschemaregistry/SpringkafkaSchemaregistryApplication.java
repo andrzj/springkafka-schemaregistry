@@ -1,4 +1,4 @@
-package br.com.lanhellas.springkafkaschemaregistry;
+package br.com.ft6.springkafkaschemaregistry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

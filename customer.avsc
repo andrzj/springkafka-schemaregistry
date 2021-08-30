@@ -1,7 +1,7 @@
 {
    "type":"record",
    "name":"Customer",
-   "namespace":"br.com.lanhellas",
+   "namespace":"br.com.ft6",
    "fields":[
       {
          "name":"id",

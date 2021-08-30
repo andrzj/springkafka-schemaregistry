@@ -1,0 +1,22 @@
+{
+   "type":"record",
+   "name":"Operacao",
+   "namespace":"br.com.ft6",
+   "fields":[
+      {
+         "name":"operacao_origem",
+         "type":"string"
+      },
+      {
+         "name":"topico_destino",
+         "type":"string"
+      },
+      {
+         "name":"payload",
+         "type": {
+            "type": "map",
+            "values": "string"
+         }
+      }
+   ]
+}

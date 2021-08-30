@@ -3,7 +3,7 @@
  *
  * DO NOT EDIT DIRECTLY
  */
-package br.com.lanhellas;
+package br.com.ft6;
 
 import org.apache.avro.generic.GenericArray;
 import org.apache.avro.specific.SpecificData;
@@ -15,7 +15,7 @@ import org.apache.avro.message.SchemaStore;
 @org.apache.avro.specific.AvroGenerated
 public class Customer extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
   private static final long serialVersionUID = 4612031627741940810L;
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"Customer\",\"namespace\":\"br.com.lanhellas\",\"fields\":[{\"name\":\"id\",\"type\":\"int\"},{\"name\":\"name\",\"type\":\"string\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"Customer\",\"namespace\":\"br.com.ft6\",\"fields\":[{\"name\":\"id\",\"type\":\"int\"},{\"name\":\"name\",\"type\":\"string\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
 
   private static SpecificData MODEL$ = new SpecificData();
@@ -150,8 +150,8 @@ public class Customer extends org.apache.avro.specific.SpecificRecordBase implem
    * Creates a new Customer RecordBuilder.
    * @return A new Customer RecordBuilder
    */
-  public static br.com.lanhellas.Customer.Builder newBuilder() {
-    return new br.com.lanhellas.Customer.Builder();
+  public static br.com.ft6.Customer.Builder newBuilder() {
+    return new br.com.ft6.Customer.Builder();
   }
 
   /**
@@ -159,11 +159,11 @@ public class Customer extends org.apache.avro.specific.SpecificRecordBase implem
    * @param other The existing builder to copy.
    * @return A new Customer RecordBuilder
    */
-  public static br.com.lanhellas.Customer.Builder newBuilder(br.com.lanhellas.Customer.Builder other) {
+  public static br.com.ft6.Customer.Builder newBuilder(br.com.ft6.Customer.Builder other) {
     if (other == null) {
-      return new br.com.lanhellas.Customer.Builder();
+      return new br.com.ft6.Customer.Builder();
     } else {
-      return new br.com.lanhellas.Customer.Builder(other);
+      return new br.com.ft6.Customer.Builder(other);
     }
   }
 
@@ -172,11 +172,11 @@ public class Customer extends org.apache.avro.specific.SpecificRecordBase implem
    * @param other The existing instance to copy.
    * @return A new Customer RecordBuilder
    */
-  public static br.com.lanhellas.Customer.Builder newBuilder(br.com.lanhellas.Customer other) {
+  public static br.com.ft6.Customer.Builder newBuilder(br.com.ft6.Customer other) {
     if (other == null) {
-      return new br.com.lanhellas.Customer.Builder();
+      return new br.com.ft6.Customer.Builder();
     } else {
-      return new br.com.lanhellas.Customer.Builder(other);
+      return new br.com.ft6.Customer.Builder(other);
     }
   }
 
@@ -199,7 +199,7 @@ public class Customer extends org.apache.avro.specific.SpecificRecordBase implem
      * Creates a Builder by copying an existing Builder.
      * @param other The existing Builder to copy.
      */
-    private Builder(br.com.lanhellas.Customer.Builder other) {
+    private Builder(br.com.ft6.Customer.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.id)) {
         this.id = data().deepCopy(fields()[0].schema(), other.id);
@@ -215,7 +215,7 @@ public class Customer extends org.apache.avro.specific.SpecificRecordBase implem
      * Creates a Builder by copying an existing Customer instance
      * @param other The existing instance to copy.
      */
-    private Builder(br.com.lanhellas.Customer other) {
+    private Builder(br.com.ft6.Customer other) {
       super(SCHEMA$);
       if (isValidValue(fields()[0], other.id)) {
         this.id = data().deepCopy(fields()[0].schema(), other.id);
@@ -241,7 +241,7 @@ public class Customer extends org.apache.avro.specific.SpecificRecordBase implem
       * @param value The value of 'id'.
       * @return This builder.
       */
-    public br.com.lanhellas.Customer.Builder setId(int value) {
+    public br.com.ft6.Customer.Builder setId(int value) {
       validate(fields()[0], value);
       this.id = value;
       fieldSetFlags()[0] = true;
@@ -261,7 +261,7 @@ public class Customer extends org.apache.avro.specific.SpecificRecordBase implem
       * Clears the value of the 'id' field.
       * @return This builder.
       */
-    public br.com.lanhellas.Customer.Builder clearId() {
+    public br.com.ft6.Customer.Builder clearId() {
       fieldSetFlags()[0] = false;
       return this;
     }
@@ -280,7 +280,7 @@ public class Customer extends org.apache.avro.specific.SpecificRecordBase implem
       * @param value The value of 'name'.
       * @return This builder.
       */
-    public br.com.lanhellas.Customer.Builder setName(java.lang.CharSequence value) {
+    public br.com.ft6.Customer.Builder setName(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.name = value;
       fieldSetFlags()[1] = true;
@@ -300,7 +300,7 @@ public class Customer extends org.apache.avro.specific.SpecificRecordBase implem
       * Clears the value of the 'name' field.
       * @return This builder.
       */
-    public br.com.lanhellas.Customer.Builder clearName() {
+    public br.com.ft6.Customer.Builder clearName() {
       name = null;
       fieldSetFlags()[1] = false;
       return this;
